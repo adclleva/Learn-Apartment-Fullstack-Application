@@ -391,3 +391,445 @@ Entrypoint server_rendering = js/server_rendering-08c785a35ad45f8665b1.js js/ser
 Completed 200 OK in 7683ms (Views: 7682.0ms | ActiveRecord: 0.0ms | Allocations: 6246)
 
 
+Started GET "/" for 127.0.0.1 at 2019-11-25 14:57:23 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 1.2ms | Allocations: 424)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.0ms | Allocations: 5980)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-25 15:18:28 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 4.2ms | Allocations: 353)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/arvin/Google Drive/full-stack-apartment-app/fullstack-apartment-app/public/packs
+[Webpacker] Hash: f842041a6e8fb834eff5
+Version: webpack 4.41.2
+Time: 5057ms
+Built at: 11/25/2019 3:18:38 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-06f7c0dc91c976965ceb.js  1.48 MiB       application  [emitted] [immutable]  application
+     js/application-06f7c0dc91c976965ceb.js.map  1.69 MiB       application  [emitted] [dev]        application
+         js/hello_react-878442899e2f0a050ff8.js  1.19 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-878442899e2f0a050ff8.js.map  1.37 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-a6ce62c7cc736705b2d6.js  1.36 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-a6ce62c7cc736705b2d6.js.map  1.56 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-06f7c0dc91c976965ceb.js js/application-06f7c0dc91c976965ceb.js.map
+Entrypoint hello_react = js/hello_react-878442899e2f0a050ff8.js js/hello_react-878442899e2f0a050ff8.js.map
+Entrypoint server_rendering = js/server_rendering-a6ce62c7cc736705b2d6.js js/server_rendering-a6ce62c7cc736705b2d6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 228 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.01 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+Completed 200 OK in 9296ms (Views: 9293.9ms | ActiveRecord: 0.0ms | Allocations: 7230)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-25 15:26:53 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.6ms | Allocations: 659)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 55.0ms | Allocations: 9313)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 125ms (Views: 83.5ms | ActiveRecord: 21.8ms | Allocations: 21566)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-25 15:26:57 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 2.4ms | Allocations: 220)
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 128)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1970)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 7421)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-25 15:48:46 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 149)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1200)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/arvin/Google Drive/full-stack-apartment-app/fullstack-apartment-app/public/packs
+[Webpacker] Hash: 88956eff0d43893f1014
+Version: webpack 4.41.2
+Time: 3338ms
+Built at: 11/25/2019 3:48:55 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-32f848baf6d1fbc3cd8c.js  1.48 MiB       application  [emitted] [immutable]  application
+     js/application-32f848baf6d1fbc3cd8c.js.map  1.69 MiB       application  [emitted] [dev]        application
+         js/hello_react-878442899e2f0a050ff8.js  1.19 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-878442899e2f0a050ff8.js.map  1.37 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-70df310b0110840e0e7c.js  1.36 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-70df310b0110840e0e7c.js.map  1.56 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-32f848baf6d1fbc3cd8c.js js/application-32f848baf6d1fbc3cd8c.js.map
+Entrypoint hello_react = js/hello_react-878442899e2f0a050ff8.js js/hello_react-878442899e2f0a050ff8.js.map
+Entrypoint server_rendering = js/server_rendering-70df310b0110840e0e7c.js js/server_rendering-70df310b0110840e0e7c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 228 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.01 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+Completed 200 OK in 8327ms (Views: 8314.2ms | ActiveRecord: 0.0ms | Allocations: 12837)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-25 15:49:01 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 136)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 31.5ms | ActiveRecord: 0.0ms | Allocations: 5927)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-25 15:49:01 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 136)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 5930)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-25 15:49:03 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 1.9ms | Allocations: 91)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 19.9ms | Allocations: 1163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 41.8ms | ActiveRecord: 0.0ms | Allocations: 6100)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-11-25 15:49:12 -0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"QYcOla9zKkOihuULVzSVQtzhdiOY6QhjlTFg9huqIChmqjtvTvHCqAUPt+ZtdknFplXtT2XHGPnxW4++AXCSBw==", "user"=>{"email"=>"bob@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (27.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "bob@yahoo.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (63.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "bob@yahoo.com"], ["encrypted_password", "$2a$11$4uOnvbYeM8Eb2unNQtCP8OKFf0mIPROMEyzl6mCvbYJWoTOFLH1rW"], ["created_at", "2019-11-25 23:49:12.628476"], ["updated_at", "2019-11-25 23:49:12.628476"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 313ms (ActiveRecord: 93.3ms | Allocations: 11249)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-25 15:49:12 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  [1m[36mUser Load (7.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/homepage.html.erb:2
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 30.7ms | Allocations: 1252)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 104ms (Views: 92.5ms | ActiveRecord: 8.0ms | Allocations: 5944)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2019-11-25 15:49:26 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (8.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 40ms (ActiveRecord: 8.9ms | Allocations: 6420)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-25 15:49:26 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.8ms | Allocations: 246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 4772)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-25 15:49:27 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 136)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 39.7ms | ActiveRecord: 0.0ms | Allocations: 5931)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-25 15:49:38 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"r3ipLIWleO2yuMTsvjV2vG4/G6eejio5sQeSFWxM2yBi68vw/tBLS2s7NCgaMXDdadAhqWeUY1ELXwM1oaLyaA==", "user"=>{"email"=>"bob@yahoo.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "bob@yahoo.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (4.5ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", "2019-11-25 23:49:38.173055"], ["updated_at", "2019-11-25 23:49:38.173655"], ["id", 1]]
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 169ms (ActiveRecord: 10.4ms | Allocations: 7873)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-25 15:49:38 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/homepage.html.erb:2
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.9ms | Allocations: 5617)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-25 15:55:18 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/homepage.html.erb:2
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1204)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 1.1ms | Allocations: 5733)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-26 09:20:09 -0800
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  [1m[36mUser Load (20.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/homepage.html.erb:2
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 98.4ms | Allocations: 8202)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/arvin/Google Drive/full-stack-apartment-app/fullstack-apartment-app/public/packs
+[Webpacker] Hash: 88956eff0d43893f1014
+Version: webpack 4.41.2
+Time: 3050ms
+Built at: 11/26/2019 9:20:16 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-32f848baf6d1fbc3cd8c.js  1.48 MiB       application  [emitted] [immutable]  application
+     js/application-32f848baf6d1fbc3cd8c.js.map  1.69 MiB       application  [emitted] [dev]        application
+         js/hello_react-878442899e2f0a050ff8.js  1.19 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-878442899e2f0a050ff8.js.map  1.37 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-70df310b0110840e0e7c.js  1.36 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-70df310b0110840e0e7c.js.map  1.56 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-32f848baf6d1fbc3cd8c.js js/application-32f848baf6d1fbc3cd8c.js.map
+Entrypoint hello_react = js/hello_react-878442899e2f0a050ff8.js js/hello_react-878442899e2f0a050ff8.js.map
+Entrypoint server_rendering = js/server_rendering-70df310b0110840e0e7c.js js/server_rendering-70df310b0110840e0e7c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 228 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.01 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+Completed 200 OK in 7330ms (Views: 7256.0ms | ActiveRecord: 46.6ms | Allocations: 18407)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2019-11-26 09:20:31 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (8.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (60.3ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", nil], ["updated_at", "2019-11-26 17:20:32.130138"], ["id", 1]]
+  [1m[35m (70.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 195ms (ActiveRecord: 140.7ms | Allocations: 8920)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-26 09:20:32 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 11.2ms | Allocations: 263)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 61ms (Views: 57.5ms | ActiveRecord: 0.0ms | Allocations: 4835)
+
+
+Started GET "//users" for 127.0.0.1 at 2019-11-26 09:49:42 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "//users" for 127.0.0.1 at 2019-11-26 09:51:13 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-26 09:52:18 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 17.1ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 146ms (Views: 128.3ms | ActiveRecord: 0.0ms | Allocations: 4826)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-26 10:05:59 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 1.5ms | Allocations: 259)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 2caa6f2e9eacecbe1008
+Version: webpack 4.41.2
+Time: 3501ms
+Built at: 11/26/2019 10:06:08 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-c9c8d864fc01cc5138ab.js  1.48 MiB       application  [emitted] [immutable]  application
+     js/application-c9c8d864fc01cc5138ab.js.map  1.69 MiB       application  [emitted] [dev]        application
+         js/hello_react-878442899e2f0a050ff8.js  1.19 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-878442899e2f0a050ff8.js.map  1.37 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-9bd77cc56a1da03df649.js  1.36 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-9bd77cc56a1da03df649.js.map  1.56 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-c9c8d864fc01cc5138ab.js js/application-c9c8d864fc01cc5138ab.js.map
+Entrypoint hello_react = js/hello_react-878442899e2f0a050ff8.js js/hello_react-878442899e2f0a050ff8.js.map
+Entrypoint server_rendering = js/server_rendering-9bd77cc56a1da03df649.js js/server_rendering-9bd77cc56a1da03df649.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 228 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.01 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/MainApp.js
+Module not found: Error: Can't resolve 'bootswatch/dist/[darkly]/bootstrap.min.css' in '/Users/arvin/Google Drive/full-stack-apartment-app/fullstack-apartment-app/app/javascript/components'
+ @ ./app/javascript/components/MainApp.js 22:0-52
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 8070ms (Views: 8066.7ms | ActiveRecord: 0.0ms | Allocations: 6168)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-26 10:06:49 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.6ms | Allocations: 259)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/arvin/Google Drive/full-stack-apartment-app/fullstack-apartment-app/public/packs
+[Webpacker] Hash: ce0c9d09fc75083e4c6c
+Version: webpack 4.41.2
+Time: 7982ms
+Built at: 11/26/2019 10:07:01 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-f23c87298cb642ab5903.js  1.86 MiB       application  [emitted] [immutable]  application
+     js/application-f23c87298cb642ab5903.js.map  2.08 MiB       application  [emitted] [dev]        application
+         js/hello_react-878442899e2f0a050ff8.js  1.19 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-878442899e2f0a050ff8.js.map  1.37 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-3034ca9bf206d6071cf9.js  1.74 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-3034ca9bf206d6071cf9.js.map  1.95 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-f23c87298cb642ab5903.js js/application-f23c87298cb642ab5903.js.map
+Entrypoint hello_react = js/hello_react-878442899e2f0a050ff8.js js/hello_react-878442899e2f0a050ff8.js.map
+Entrypoint server_rendering = js/server_rendering-3034ca9bf206d6071cf9.js js/server_rendering-3034ca9bf206d6071cf9.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 228 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.01 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 36 hidden modules
+
+Completed 200 OK in 11493ms (Views: 11491.7ms | ActiveRecord: 0.0ms | Allocations: 6279)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-26 10:07:56 -0800
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 3.0ms | Allocations: 259)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/arvin/Google Drive/full-stack-apartment-app/fullstack-apartment-app/public/packs
+[Webpacker] Hash: af5c42d64f9bcb880f8f
+Version: webpack 4.41.2
+Time: 3703ms
+Built at: 11/26/2019 10:08:03 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-ccdfcdbd8aee7b8fac24.js  1.86 MiB       application  [emitted] [immutable]  application
+     js/application-ccdfcdbd8aee7b8fac24.js.map  2.08 MiB       application  [emitted] [dev]        application
+         js/hello_react-878442899e2f0a050ff8.js  1.19 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-878442899e2f0a050ff8.js.map  1.37 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-91a36b83c09fca4f3335.js  1.74 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-91a36b83c09fca4f3335.js.map  1.95 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-ccdfcdbd8aee7b8fac24.js js/application-ccdfcdbd8aee7b8fac24.js.map
+Entrypoint hello_react = js/hello_react-878442899e2f0a050ff8.js js/hello_react-878442899e2f0a050ff8.js.map
+Entrypoint server_rendering = js/server_rendering-91a36b83c09fca4f3335.js js/server_rendering-91a36b83c09fca4f3335.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 228 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.01 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 36 hidden modules
+
+Completed 200 OK in 6514ms (Views: 6511.3ms | ActiveRecord: 0.0ms | Allocations: 6263)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-26 10:13:35 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 4.7ms | Allocations: 656)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 77.6ms | Allocations: 4072)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1016ms (Views: 179.5ms | ActiveRecord: 766.3ms | Allocations: 16103)
+
+

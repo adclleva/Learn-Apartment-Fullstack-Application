@@ -1,5 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
+import HelloWorld from "./HelloWorld"
+import "bootswatch/dist/flatly/bootstrap.min.css";
 
 class MainApp extends React.Component {
   render () {
@@ -11,6 +13,8 @@ class MainApp extends React.Component {
 
     return (
       <React.Fragment>
+        <HelloWorld />
+        
         <h1>Welcome to the app!</h1>
         {logged_in &&
           <div>
