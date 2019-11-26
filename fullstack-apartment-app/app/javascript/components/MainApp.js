@@ -23,7 +23,7 @@ class MainApp extends React.Component {
         }
         {!logged_in &&
           <div>
-            <a href={sign_in_route}>Sign In</a>
+            <a href={sign_in_route}>Sign In Test</a>
           </div>
         }
       </React.Fragment>
