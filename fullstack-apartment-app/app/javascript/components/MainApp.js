@@ -63,7 +63,7 @@ class MainApp extends React.Component {
 
           <div>
             <Route path='/helloworld' exact component={HelloWorld}/>
-            <Route path='/apartments' exact component={Apartments}/>
+            <Route path='/apartments' render={(props) => <Apartments currentUser={current_user_id}/>}/>
           </div>
         </Router>
       </React.Fragment>

@@ -11,6 +11,7 @@ const getApartments = () => {
         })
 }
 
+
 export {
     getApartments
 }
